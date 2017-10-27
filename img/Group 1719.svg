@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14844 288.508 271 312.692">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffa64d;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_1719" data-name="Group 1719" transform="translate(14468 -1804)">
+    <rect id="Rectangle_80" data-name="Rectangle 80" class="cls-1" width="162" height="58" transform="translate(384 2338)"/>
+    <rect id="Rectangle_81" data-name="Rectangle 81" class="cls-1" width="159" height="24" transform="translate(384 2100)"/>
+    <path id="Path_37" data-name="Path 37" d="M36.846,49A20.846,20.846,0,1,0,57.692,69.846,20.867,20.867,0,0,0,36.846,49Zm0,31.269A10.423,10.423,0,1,1,47.269,69.846,10.434,10.434,0,0,1,36.846,80.269Z" transform="translate(422.538 2298.873)"/>
+    <path id="Path_38" data-name="Path 38" d="M21.212,13.423H42.058A5.212,5.212,0,0,0,42.058,3H21.212a5.212,5.212,0,1,0,0,10.423Z" transform="translate(422.538 2105.142)"/>
+    <path id="Path_39" data-name="Path 39" d="M28.212,13.423h5.212A5.212,5.212,0,0,0,33.423,3H28.212a5.212,5.212,0,1,0,0,10.423Z" transform="translate(452.019 2105.142)"/>
+    <path id="Path_40" data-name="Path 40" d="M275,62.538H181.192V22.957A22.986,22.986,0,0,0,158.235,0H26.957A22.986,22.986,0,0,0,4,22.957V289.73a22.987,22.987,0,0,0,22.957,22.962H158.23a22.987,22.987,0,0,0,22.962-22.957V171.981H275ZM26.957,10.423H158.23a12.55,12.55,0,0,1,12.539,12.534v8.312H14.423V22.957A12.549,12.549,0,0,1,26.957,10.423ZM158.235,302.269H26.957a12.549,12.549,0,0,1-12.534-12.534V250.154H170.769v39.582A12.549,12.549,0,0,1,158.235,302.269Zm12.534-62.538H14.423V41.692H170.769V62.538H76.962V171.981H97.808v36.481l48.639-36.481h24.322Zm93.808-78.173h-121.6l-34.745,26.058V161.558H87.385v-88.6H264.577Z" transform="translate(372 2092.508)"/>
+    <path id="Path_41" data-name="Path 41" d="M29.212,29.423H81.327a5.212,5.212,0,0,0,0-10.423H29.212a5.212,5.212,0,1,0,0,10.423Z" transform="translate(456.231 2190.527)"/>
+    <path id="Path_42" data-name="Path 42" d="M24,29.212a5.21,5.21,0,0,0,5.212,5.212H154.288a5.212,5.212,0,0,0,0-10.423H29.212A5.21,5.21,0,0,0,24,29.212Z" transform="translate(456.231 2205.584)"/>
+    <text id="nellopages" class="cls-2" transform="translate(483 2199)"><tspan x="0" y="0">nellopages</tspan></text>
+  </g>
+</svg>

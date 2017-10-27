@@ -1,0 +1,263 @@
+.navbar {
+  background-color: rgb(7,51,96);
+}
+
+
+.img-control img {
+  width: 200px;
+  margin-left: 70px;
+}
+
+.brand-heading h1{
+  margin-top: 50px;
+  text-align: center;
+  color: #99A3A4;
+  font-size: 40px;
+}
+
+.img-row img{
+  width: 170px; 
+  height: 170px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.talent{
+  margin-top: 40px;
+}
+
+.talent h1{
+  font-size: 25px; 
+  color: #99A3A4;
+  font-size: 40px;
+}
+
+
+.img-control h3{
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+.index-social{
+    background-color:#2c2c2c;
+    color:#fff;
+}
+.link-area .fa-li{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:solid 1px #fff;
+    list-style-type:none;
+    margin:5px;
+    display:inline-block;
+}
+.index-social a{
+    color:#fff;
+    font-size:25px;
+    display:block;
+    float:left;
+    padding:10px;
+}
+.index-link h3{
+    text-align:center;
+   color:#f1f1f1;
+   text-align:left;
+   
+}
+.index-link{
+    background-color:#000;
+}
+.index-link ul{
+    padding:0px;
+}
+.index-link ul li{
+    list-style-type:none;
+}
+.index-link ul li a{
+  text-decoration:none;
+  font-size:16px;
+  color:#fff;
+  display:block;
+  padding:5px 0;
+  text-align:left;
+}
+.index-link ul li a:hover{
+     text-decoration:underline;
+}
+.copy-c{
+    padding-top:15px;
+}
+
+
+/* footer */
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 17px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:left;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    /* display: flex; */
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    /* height: 100%; */
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+.social-icons .privacy a{
+  float: right;
+}
+
+
+.map {
+  margin-top: 2em
+}
+
+.hr-1{
+  background: #fff; 
+  margin-right: 5em; 
+  margin-left: 5em;
+}
+
+
+.text-1 h5{
+  margin-left: 20px; 
+  margin-top: 40px;
+}
+
+.text-2 h5{
+  margin-left: 90px; 
+  margin-top: 40px;
+}
+
+.text-3 h5{
+  margin-left:200px; 
+  margin-top: 40px;
+}
+
+.text-1 p{
+  margin-left: 20px; 
+  /*margin-top: 40px;*/
+}
+
+.text-2 p{
+  margin-left: 90px; 
+  /*margin-top: 40px;*/
+}
+
+.text-3 p{
+  margin-left: 210px; 
+  /*margin-top: 40px;*/
+}

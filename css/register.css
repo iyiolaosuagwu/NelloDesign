@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.brand-showcase-welcome
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(../img/login_skype.jpg);
+	background-size: cover;
+	height:100vh;
+}
+
+.brand-showcase-welcome-words
+{
+	
+    margin-left: 60px;
+    margin-top: 200px;
+    width: 1000px;
+    color: #fff;
+}
+
+
+.showcase-image
+{
+	width: 300px;
+}
+
+.brand-showcase-welcome-words button
+{
+	background-color: transparent;
+	display: inline-block;
+	margin-top: 30px;
+	border-radius: 3px;
+	/*padding: 7px 12px;*/
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.login-input-headeing
+{
+	display: block;
+	margin-top: 25px;
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 1px;
+    /*margin-top: 20px;*/
+    font-size: 15px;
+}
+
+.form-group select{
+   font-size: 15px;
+   width: 100%;
+   height: 50px;
+   border-width: 0;
+   padding: 12px 20px;
+}
+
+.login__welcome-2 .or
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn {
+	background-color: transparent;
+	height: 80px;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px; 	
+	font: 700 13px/18px Helvetica, arial;
+	margin-top: 30px;
+	background: #1F618D linear-gradient(#F1C40F, #F1C40F) repeat-x;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+.button--state-primary{
+	color: #FFF;
+	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+	border-color: #1F618D;
+	margin-top: 30px;
+}
+.button--state-info {
+	color: #FFF;
+	background: #5DADE2 linear-gradient(#5DADE2, #5DADE2) repeat-x;
+	border-color: #5DADE2;
+	margin-top: 20px;
+}
+.input--forget--password
+{
+	float: right;
+}
+
+.btn i{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+
+/*REGISTER PAGE*/
+
+.register__page .input-1 input
+{
+    height: 50px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right;
+    margin: auto;
+}
+
+.button--state-primary-section-2 {
+	color: #FFF;
+	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+	border-color: #1F618D;
+	margin-top: 10px;
+}
+
+.login-input span .new-account{
+	text-align: center;
+	padding-top: 50px;	
+
+}
