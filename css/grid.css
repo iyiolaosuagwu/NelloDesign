@@ -1,13 +1,13 @@
 
 
 body {
-    padding-top: 54px;
+    
     background-color: #e0e0e0;
 }
 
 @media (min-width: 992px) {
     body {
-        padding-top: 100px;
+       
     }
 }
 
@@ -29,7 +29,9 @@ body {
     background-color: #bdbdbd;
 }
 
-
+.advance-section{
+    margin-top: 15px;
+}
 
 .advance-search{
     padding-top: 40px;
