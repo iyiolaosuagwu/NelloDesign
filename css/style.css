@@ -42,6 +42,7 @@ body {
 .btn-outline-secondary{
   font-size: 10px; 
   color:  #ffffff;
+  padding-right: 15px;
 }
 
 
@@ -58,16 +59,14 @@ body {
 }
 
 
-
-
-
+/*last footer*/
 
 .privacy{
   float: right;
 }
-/**/
 
 
+ /*Buttons*/
 .input-group{
     position: absolute;
     top: 50%;
@@ -75,3 +74,34 @@ body {
     color: #FFF;
     margin-left: 25%;
 }
+
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+ #social-em{
+  color: #fff;
+  font-size: 25px;
+  padding-top: 5px;
+  /*padding-right: 15px;*/
+ }
+
+ .warning-btn{
+  font-size: 10px; 
+  border-color: #fff;
+  border-radius: 0px;
+
+ }
+
+ .nav-item{
+  padding-left: 15px;
+ }
+
+/*button*/
+
+.mt-4 img{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+ 

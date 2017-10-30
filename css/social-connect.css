@@ -173,16 +173,7 @@
     background: black;
     }
 
-@font-face {
-    font-weight: normal;
-  font-style: normal;
-  font-family: 'feathericons';
-  src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
-  src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
-    url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
-    url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
-    url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
-}
+
 
 .grid {
   position: relative;
@@ -199,8 +190,8 @@
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
+  min-width: 60px;
+  max-width: 250px;
   max-height: 360px;
   width: 48%;
   background: #3085a3;
@@ -273,7 +264,7 @@
 /*---------------*/
 /***** Lily *****/
 /*---------------*/
-
+/*
 figure.effect-lily img {
   max-width: none;
   width: -webkit-calc(100% + 50px);
@@ -333,7 +324,7 @@ figure.effect-lily:hover p {
   transition-delay: 0.05s;
   -webkit-transition-duration: 0.35s;
   transition-duration: 0.35s;
-}
+}*/
 
 /*---------------*/
 /***** Sadie *****/

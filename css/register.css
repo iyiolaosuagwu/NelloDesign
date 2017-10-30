@@ -1,47 +1,143 @@
 body{
-	margin: 0;
-	padding: 0;
+	background-color: white;
+	font-family: Segoe UI Light;
 }
-
-
-.brand-showcase-welcome
-{
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(../img/login_skype.jpg);
-	background-size: cover;
-	height:100vh;
-}
-
-.brand-showcase-welcome-words
-{
-	
-    margin-left: 60px;
-    margin-top: 200px;
-    width: 1000px;
-    color: #fff;
-}
-
-
-.showcase-image
-{
-	width: 300px;
-}
-
-.brand-showcase-welcome-words button
-{
+.main-container{
 	background-color: transparent;
-	display: inline-block;
-	margin-top: 30px;
-	border-radius: 3px;
-	/*padding: 7px 12px;*/
-	border: 1px solid #fff;
-	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
 }
+.left-section{
+	height: 100vh;
+	background-position: 0px 0px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+   background-size: cover;
+}
+.right-section{
+	padding-top: 20px;
+	height: 100vh; 
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: white;
+}
+.logo{
+	background-color: transparent;
+}
+
+.logo img{
+	background-color: transparent;
+	position: absolute;
+	width: 280px;
+	margin-top: -50px;
+	margin-left: 20px;
+}
+.content{
+	padding-top: 80px;
+	padding-left: 30px;
+			width: 70%;
+			height: 50%;
+			top: 25%;
+			margin: 0 auto;
+			position: relative;
+}
+.content h2{
+	font-size: 38px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.content p{
+	color: white;
+	font-size: 21px;
+	font-weight: lighter;
+}
+.content button{
+	margin-top: 20px;
+	background-color: transparent;
+	border-color: white;
+	color: white;
+	border-style: solid;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+
+/* forms */
+.top{
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: grey;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.top p{
+	color: grey;
+	margin-top: 15px;
+	padding-bottom: 25px;
+	margin-left: 30px;
+	font-size: 24px;
+}
+
+.or{
+	padding: 10px;
+	background-color: transparent;
+}
+.register{
+	margin-top: 90px;
+	margin-left: -30px;
+}
+.register p{
+	text-align: center;
+	font-size: 11px;
+}
+.register a{
+		color: red;
+}
+
+.i-accept{
+	color: grey;
+}
+.terms-and-conditions{
+	color: red;
+}
+.register__page{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.register__page .input-1 input
+{
+    height: 50px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right;
+    margin: auto;
+}
+
+.button--state-primary-section-2 {
+	color: #FFF;
+	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+	border-color: #1F618D;
+	margin-top: 10px;
+}
+
+.login-input span .new-account{
+	text-align: center;
+	padding-top: 50px;	
+
+}
+
 
 .login-input-headeing
 {
 	display: block;
 	margin-top: 25px;
 }
+
 
 .form-group input{
     width: 100%;
@@ -62,6 +158,11 @@ body{
    height: 50px;
    border-width: 0;
    padding: 12px 20px;
+   border-color: lightgrey;
+   border-width: 1px;
+   border-style: solid;
+   margin-top: 10px;
+   color: grey;
 }
 
 .login__welcome-2 .or
@@ -78,7 +179,7 @@ body{
 	padding: 7px 12px; 	
 	font: 700 13px/18px Helvetica, arial;
 	margin-top: 30px;
-	background: #1F618D linear-gradient(#F1C40F, #F1C40F) repeat-x;
+	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
 	font-size: 20px;
 	color: #fff;
 	margin-bottom: 10px;
@@ -106,30 +207,15 @@ body{
 	padding-right: 10px;
 }
 
-
-/*REGISTER PAGE*/
-
-.register__page .input-1 input
-{
-    height: 50px;
-    padding: 8px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    float: right;
-    margin: auto;
+.register__welcome-2{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.button--state-primary-section-2 {
-	color: #FFF;
-	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
-	border-color: #1F618D;
-	margin-top: 10px;
-}
-
-.login-input span .new-account{
-	text-align: center;
-	padding-top: 50px;	
-
+input[type="checkbox"]{
+	color: white;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
 }
