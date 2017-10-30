@@ -100,8 +100,23 @@ body {
 /*button*/
 
 .mt-4 img{
-  margin-left: 5px;
+  /*margin-left: 5px;*/
   margin-top: 5px;
 }
+  /*Img text centered*/
+.col-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
- 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-family: Fjalla One;
+}
+
