@@ -1,11 +1,11 @@
 
-body {
+.profile-body {
     padding-top: 54px;
     background: #EAECEC;
 }
 
 @media (min-width: 992px) {
-    body {
+    .profile-body {
         padding-top: 56px;
     }
 }
@@ -14,7 +14,7 @@ body {
   background-color: rgb(7,51,96);
 }
 /* header-btn */
-.message {
+.header-message {
   float: left; 
   padding-left: 15px;
 }
