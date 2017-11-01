@@ -1,3 +1,4 @@
+/*Profile*/
 
 .profile-body {
     background: #EAECEC;
@@ -11,6 +12,10 @@
 
 .navbar {
   background-color: rgb(7,51,96);
+}
+.profile-navbar-brand img{
+  width: 100px;
+  height: 30px;
 }
 /* header-btn */
 .header-message {
@@ -92,6 +97,21 @@
   height: 300px;
   box-shadow: 0px 15px 10px -15px #111;
 }
+
+.jumbotron-header img{
+  width: 130px; 
+  height: 130px;
+}
+
+.profile-text-white{
+  padding-left: 5px;
+  color: #fff;
+}
+
+.profile-btn-hire{
+  margin-right: 4px;
+}
+
 .my-3 {
   height: 250px;
   background-image: url('../img/Skype-mom.jpg');
@@ -140,7 +160,14 @@
   font-weight: 500;
 }
 
+/*video*/
+.embed-responsive{
+  height: 50%;
+}
+
 /*profile*/
+
+
 
 
 /* review.css */
@@ -161,6 +188,12 @@
 /* nav-bar*/
 .navbar {
   background-color: rgb(7,51,96);
+}
+
+.review-navbar-brand img{
+  width: 100px; 
+  height: 30px;
+
 }
 /* header-btn */
 .message {
@@ -227,6 +260,23 @@
   background-position: center;
   position: relative; 
 }
+
+.my-3 img{
+  width: 130px; 
+  height: 130px;
+}
+.text-white{
+  padding-left: 5px;"
+}
+
+.btn-hire{
+  margin-right: 4px;
+}
+
+.main-card-text{
+  padding: 10px;
+}
+
 .section-nav {
   padding-left: 10em;
 }
@@ -249,9 +299,21 @@
   border-radius: 0px;
 
 }
+
+.main-card-text{
+  padding: 10px;
+}
+
+.text-muted p{
+  font-size: 13px;
+}
 .left-card {
   margin-right: 12px; 
   margin-left: 10px;
+}
+
+.networks i{
+  padding-right: 10px
 }
 
 /* right-card */
@@ -320,6 +382,10 @@
   top: 0;
   left: 0;
 }
+
+.img-static-4{
+  margin-left: 40px;
+}
 .small-img {
   margin-top: 20px;
   width: 40px; 
@@ -335,12 +401,12 @@
 } 
 
 .line-two {
-  top: 278px;
+  top: 290px;
   left: 120px;  
 }
 .line-two-2 {
   left: 150px;
-  top: 278px;
+  top: 290px;
 }
 /* review */
 .review {
@@ -350,7 +416,7 @@
   padding-left: 5em;
   padding-top: 10px;
 }
-.btn-info {
+.review-btn-info {
   border-radius: 0px;
 }
 
@@ -414,6 +480,11 @@ ul.twPc-Arrange {
 #talent {
   color: #FFF;
   font-weight: 500;
+}
+
+.orange i{
+  padding-top: 30px; 
+  margin-top: 30px;
 }
 
 /*review*/
@@ -1320,7 +1391,7 @@ ul.twPc-Arrange {
     }
 }
 
-.navbar{
+.navbar-index{
   background-color: #000;
 }
 
@@ -1329,6 +1400,16 @@ ul.twPc-Arrange {
   width: 110px;
 }
 
+.dropdown-btn{
+  width: 100%; 
+  font-size: 10px; 
+  height: 30px;
+}
+
+.showcase-btn{
+  width: 100%; 
+  font-size: 10px;
+}
 
 .carousel-item {
     height: 65vh;
@@ -1340,6 +1421,48 @@ ul.twPc-Arrange {
     background-size: cover;
 }
 
+.carousel-item-1{
+  background-image: url(../img/brunch.jpg);
+}
+
+.carousel-item-2{
+  background-image: url(../img/tailor.jpg);
+}
+
+.carousel-item-3{
+  background-image: url(../img/gal-smile.jpg);
+}
+
+.carousel-item-4{
+  background-image: url(../img/Skype-mom.jpg);
+}
+
+.carousel-item-5{
+  background-image: url(../img/gal1.jpg);
+}
+
+.carousel-item-6{
+  background-image: url(../img/gal-look.jpg);
+}
+
+.input-search{
+  width: 50%; 
+  position: absolute; 
+  top: 50%; 
+  color: #fff; 
+  margin-left: 25%;
+}
+
+.btn-input-search{
+  height: 59px; 
+  padding-left: 20px;
+  padding-right: 20px; 
+  background-attachment: fixed;
+}
+
+.img-col-container{
+  width: 70%;
+}
 
 
 /*last footer*/
@@ -1347,8 +1470,6 @@ ul.twPc-Arrange {
 .privacy{
   float: right;
 }
-
-
 
  #social-em:hover {
      color: #f39c12;
@@ -1361,8 +1482,6 @@ ul.twPc-Arrange {
   /*padding-right: 15px;*/
  }
 
- 
-
  .nav-item{
   padding-left: 15px;
  }
@@ -1370,16 +1489,19 @@ ul.twPc-Arrange {
 /*button*/
 
 
-.img-rol img{
+.img-rol{
   padding-top: 10px;
   padding-bottom: 10px;
-  position: relative;
+  
 }
 
-.img-rol img { 
-    width: 100%;
-    height: auto;
-    opacity: 0.7;
+
+
+.img-rol img:hover { 
+    transform: scale(1.05);
+    opacity: 0.5;
+    color: #3498DB !important;
+    transition: all 0.5s ease-out;
 
 }
 
@@ -1388,16 +1510,20 @@ ul.twPc-Arrange {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
     color: #fff;
 }
 
 
   /*Img text centered*/
-.col-img {
+.col-img-container {
     position: relative;
     text-align: center;
     color: white;
+}
+
+.mr-2 img{
+  height: 180px;
+  width: 180px;
 }
 
 /*Index Page*/
