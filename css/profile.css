@@ -19,9 +19,9 @@ body {
   padding-left: 15px;
 }
 .container .header-btn {
-  color: #000;
-  background: #fff;
-  margin-top: 8.6em; 
+  color: #fff;
+  background: #1EAE0D;
+  margin-top: -2em; 
   border: none;
   border-radius: 0px;
   padding-right: 40px;
@@ -31,9 +31,9 @@ body {
 }
 
 .header-btn:hover {
-  background: #18A1D5;
-  color: #fff;
-  box-shadow: 5px 5px 5px #111;
+  background: #fff;
+  color: #1EAE0D;
+  
 }
 
 /* search */
@@ -124,7 +124,19 @@ body {
   height: 50px;
 }
 
-/*.five-col img{
-  width: 150px;
-  height: 150px
-}*/
+/* profile text */
+.profile-text>h1{
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFF;
+    margin-top: 3.2em;
+}
+.profile-text {
+  background: transparent; 
+  width: 40%; 
+  padding-left: 9em;
+}
+#talent {
+  color: #FFF;
+  font-weight: 500;
+}

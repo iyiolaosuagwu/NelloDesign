@@ -1,3 +1,6 @@
+/* review.css */
+
+
 body {
 	background: #EAECEC;
 	padding-top: 54px;
@@ -6,21 +9,23 @@ body {
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
+
     }
 }
+
 /* nav-bar*/
 .navbar {
   background-color: rgb(7,51,96);
 }
 /* header-btn */
 .message {
-  float: left; 
+  /*float: left;*/ 
   padding-left: 15px;
 }
 .container .header-btn {
-  color: #000;
-  background: #fff;
-  margin-top: 8.6em; 
+  color: #fff;
+  background: #1EAE0D;
+  margin-top: -2em; 
   border: none;
   border-radius: 0px;
   padding-right: 40px;
@@ -30,9 +35,8 @@ body {
 }
 
 .header-btn:hover {
-  background: #18A1D5;
-  color: #fff;
-  box-shadow: 5px 5px 5px #111;
+  background: #fff;
+  color: #1EAE0D;
 }
 
 /* search */
@@ -249,3 +253,21 @@ ul.twPc-Arrange {
     text-transform: uppercase;
     transition: color 0.15s ease-in-out 0s;
 }
+
+/* profile text */
+.profile-text>h1{
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFF;
+    margin-top: 3.2em;
+}
+.profile-text {
+  background: transparent; 
+  width: 40%; 
+  padding-left: 9em;
+}
+#talent {
+  color: #FFF;
+  font-weight: 500;
+}
+

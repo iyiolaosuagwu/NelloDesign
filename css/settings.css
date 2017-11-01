@@ -74,7 +74,7 @@ body{
 	background-color: lightgrey;
 	height: 100vh;
 }
-.left-section{
+/*.left-section{
 		background-color: transparent;
 		height: 75%;
 }
@@ -90,8 +90,8 @@ body{
 	margin: auto;
 	background-color: white;
 	margin-bottom: 10px;
-}
-.d-p{
+}*/
+/*.d-p{
 	margin: auto;
 	background-color: red;
 	width: 60px;
@@ -111,8 +111,8 @@ body{
 	padding-bottom: 10px;
 	margin-bottom: 0px;
 	background-color: white;
-}
-.top{
+}*/
+/*.top{
 	text-align: right;
 	padding-right: 45px;
 	padding-top: 3px;
@@ -121,8 +121,8 @@ body{
 	border-bottom-width: 1px;
 	border-bottom-color: lightgrey;
 	height: 40px;
-}
-.top p{
+}*/
+./*top p{
 	margin-top: 7px;
 	font-size: 14px;
 }
@@ -133,8 +133,8 @@ body{
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-bottom: 20px;
-}
-.input-1 input{
+}*/
+/*.input-1 input{
 	padding: 12px;
 }
 label{
@@ -145,7 +145,7 @@ label{
 	padding: 12px;
 	margin-bottom: 10px;
 }
-
+*/
 .btn {
 	background-color: transparent;
 	height: 40px;
@@ -230,17 +230,7 @@ label{
 #active-page{
 	color: black;
 }
-.footer{
-	margin-top: 10px;
-    width: 100%;
-    height: 30px;
-	background-color: grey;
-	color: white;
-	text-align: center;
-}
-.footer p{
-	font-size: 14px;
-}
+
 
 /* RESPONSIVENESS */
 
@@ -250,7 +240,7 @@ label{
     }
 }
 @media screen and (max-width: 1024px) {
-    #navvy {
+    #navbar {
         padding-left: 100px !important;
     }
     #search{

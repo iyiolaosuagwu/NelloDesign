@@ -30,33 +30,6 @@ body {
     background-size: cover;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-
-.btn-outline-secondary, .form-control, .btn-secondary {
-  border-radius: 0px;
-}
-
-.btn-outline-secondary{
-  font-size: 10px; 
-  color:  #ffffff;
-  padding-right: 15px;
-}
-
-
-.btn-search{
-  height: 59px; 
-  padding-left: 20px; 
-  padding-right: 20px; 
-  background: #ffaf02;
-  background-attachment: fixed;
-}
-
-.carousel-img{
-  background-image: url('img/brunch.jpg')
-}
 
 
 /*last footer*/
@@ -66,14 +39,6 @@ body {
 }
 
 
- /*Buttons*/
-.input-group{
-    position: absolute;
-    top: 50%;
-    width: 50%;
-    color: #FFF;
-    margin-left: 25%;
-}
 
  #social-em:hover {
      color: #f39c12;
@@ -86,12 +51,7 @@ body {
   /*padding-right: 15px;*/
  }
 
- .warning-btn{
-  font-size: 10px; 
-  border-color: #fff;
-  border-radius: 0px;
-
- }
+ 
 
  .nav-item{
   padding-left: 15px;
@@ -99,24 +59,33 @@ body {
 
 /*button*/
 
-.mt-4 img{
-  /*margin-left: 5px;*/
-  margin-top: 5px;
+
+.img-rol img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
 }
+
+.img-rol img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+}
+
+
   /*Img text centered*/
 .col-img {
     position: relative;
     text-align: center;
     color: white;
 }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 30px;
-    font-family: Fjalla One;
-}
-
