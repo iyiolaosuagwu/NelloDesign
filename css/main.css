@@ -1497,21 +1497,30 @@ ul.twPc-Arrange {
 
 
 
-.img-rol img:hover { 
-    transform: scale(1.05);
+.img-rol img { 
+    /*transform: scale(1.05);*/
     opacity: 0.5;
     color: #3498DB !important;
     transition: all 0.5s ease-out;
 
 }
 
-.center {
+.img-rol img:hover { 
+    transform: scale(1.05);
+    opacity: 10;
+    color: #fff !important;
+    /*transition: all 0.5s ease-out;*/
+
+}
+
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    font-size: 18px;
 }
+
 
 
   /*Img text centered*/
