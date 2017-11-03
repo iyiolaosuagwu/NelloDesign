@@ -297,53 +297,6 @@ body {
 
 
 
-.card.hovercard .cardheader-1{
-    background: url("../img/tailor.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-2{
-    background: url("../img/gal-smile.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-3{
-    background: url("../img/profile3.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-4{
-    background: url("../img/camera.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-5{
-    background: url("../img/profile1.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-6{
-    background: url("../img/gal1.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-7{
-    background: url("../img/tailor.jpg");
-    background-size: cover;
-    height: 180px;
-}
-
-.card.hovercard .cardheader-8{
-    background: url("../img/gal-smile.jpg");
-    background-size: cover;
-    height: 180px;
-}
 
 .card.hovercard .avatar {
     position: relative;
