@@ -1859,3 +1859,928 @@ label{
 
 
 /*ABOUT*/
+
+
+
+/*  DASHBOARD  */
+.dashboard-body{
+  background-color: lightgrey;
+}
+.dashboard-navbar{
+  background-color: #e0e0e0;
+}
+
+.dashboard-navbar-img{
+  width: 100px; 
+  margin-top: -5px; 
+  margin-bottom: -10px; 
+  margin-right: 50px;
+}
+
+.dashboard-input{
+  width: 50%;
+  height: 50px; 
+  padding-left: 100px;
+  margin-left: 30px;
+  border-radius: 0px; 
+  background-image:url(../img/find.jpg); 
+  background-position: 45px -17px; 
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+.dashboard-navbar-li li{
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+
+.dashboard-navbar-img-circle{
+  width: 50px; 
+  height: 50px;
+}
+
+.dashboard-navbar-rounded-img{
+  margin-top: 2px;
+  width: 63px;
+  height: 63px;
+}
+
+.dashboard-navbar-label{
+  margin-top: -10px;
+}
+.dashboard-navbar-user{
+  color: white !important;
+  margin-left: 10px;
+  margin-bottom: 0px;
+
+}
+.dashboard-navbar-user-info{
+  margin-left: 10px;
+  font-size: 11px;
+  color: grey !important;
+}
+.dashboard-navbar{
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(7,51,96);
+}
+
+
+.dashboard-headertwo{
+  padding-top: 15px;
+  margin-bottom: 10px;
+  height: 50px;
+  background-color: white;
+}
+.dashboard-headertwo ul li{
+  font-size: 14px;
+  color: grey;
+  margin-top: 10px;
+  display: inline;
+  margin: 10px;
+}
+.dashboard-li{
+  color: grey;
+  margin-left: 10px;
+}
+.dashboard-li:hover{
+  color: black;
+  text-decoration: none;
+}
+.dashboard-li:focus{
+  color: blue;
+  text-decoration: none;
+}
+.dashboard-li-home{
+  color: black;
+  margin-left: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+}
+.dashboard-section-1{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dashboard-profile{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.dashboard-profile-main-item{
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+.dashboard-profile-items{
+  width: 100%;
+  margin-top: 3px;
+}
+.dashboard-profile-dp{
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  margin-bottom: 50px;
+}
+.dashboard-profile-dp img{
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+.dashboard-profile-user{
+  color: grey !important;
+  margin-left: 10px;
+  margin-bottom: 0px;
+
+}
+.dashboard-profile-rating{
+  margin-left: 10px;
+  font-size: 15px;
+  color: black !important;
+}
+.dashboard-user{
+  margin-top: 15px;
+}
+.dashboard-profile-analytics{
+  color: blue;
+  font-size: 12px;
+}
+
+.dashboard-account{
+  border-radius: 2px 2px 2px;
+  padding: 15px;
+background-color: white;
+}
+.dashboard-account-sections{
+  height: 80px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: grey;
+}
+.dashboard-account-sections-last{
+  height: 80px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dashboard-todo{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.dashboard-todo-h2{
+  padding-top: 45px;
+  font-size: 18px;
+}
+.dashboard-todo-a{
+  margin-left: 30px;
+  color: grey;
+  font-size: 15px;
+}
+.dashboard-setting{
+  font-size: 14px;
+  color: grey;
+  border-radius: 2px 2px 2px;
+  background-color: white;
+  height: 70px;
+}
+.dashboard-setting-icon{
+  color: black;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.dashboard-setting-link{
+  color: orange !important;
+}
+
+.dashboard-footer{
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  padding-top: 5px;
+}
+.dashboard-footer-text{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+/* ----------- */
+
+/*  PASSWORD  */
+.password-body{
+  background-color: lightgrey;
+}
+.password-navbar{
+  background-color: #e0e0e0;
+}
+
+.password-navbar-img{
+  width: 100px; 
+  margin-top: -5px; 
+  margin-bottom: -10px; 
+  margin-right: 50px;
+}
+
+.password-input{
+  width: 50%;
+  height: 50px; 
+  padding-left: 100px;
+  margin-left: 30px;
+  border-radius: 0px; 
+  background-image:url(../img/find.jpg); 
+  background-position: 45px -17px; 
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+.password-navbar-li li{
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+
+.password-navbar-img-circle{
+  width: 50px; 
+  height: 50px;
+}
+
+.password-navbar-rounded-img{
+  margin-top: 2px;
+  width: 63px;
+  height: 63px;
+}
+
+.password-navbar-label{
+  margin-top: -10px;
+}
+.password-navbar-user{
+  color: white !important;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 15px !important;
+}
+.password-navbar-user-info{
+  margin-left: 10px;
+  font-size: 11px;
+  color: grey !important;
+}
+.password-navbar{
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(7,51,96);
+}
+
+
+.password-headertwo{
+  padding-top: 15px;
+  margin-bottom: 10px;
+  height: 50px;
+  background-color: white;
+}
+.password-headertwo ul li{
+  font-size: 14px;
+  color: grey;
+  margin-top: 10px;
+  display: inline;
+  margin: 10px;
+}
+.password-li{
+  color: grey;
+  margin-left: 10px;
+}
+.password-li:hover{
+  color: black;
+  text-decoration: none;
+}
+.password-li:focus{
+  color: blue;
+  text-decoration: none;
+}
+.password-li-home{
+  color: black;
+  margin-left: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+}
+
+.password-main-section{
+  padding-top: 55px;
+  background-color: lightgrey;
+  height: 100vh;
+}
+.password-left-section{
+    background-color: transparent;
+    height: 75%;
+}
+.password-right-section{
+    background-color: transparent;
+    height: 75%;
+}
+.password-form-body{
+  background-color: white;
+}
+.password-display-picture{
+  padding-top: 5px;
+  border-radius: 5px;
+  width: 85px;
+  height: 75px;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.password-d-p{
+  margin: auto;
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+.password-d-p img{
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+
+.password-middle-section{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+.password-top{
+  text-align: right;
+  padding-right: 45px;
+  padding-top: 3px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgrey;
+  height: 40px;
+}
+
+.password-input-1 textarea{
+  overflow: hidden;
+}
+
+.password-top p{
+  margin-top: 7px;
+  font-size: 14px;
+}
+.password-here{
+  color: #ffc107;
+}
+.password-form{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.password-input-1 input{
+  padding: 12px;
+}
+label{
+  color: grey;
+  font-size: 10px;
+}
+.password-input-2 input{
+  padding: 12px;
+  border-style: hidden;
+}
+.password-input-2 input[type="file"]{
+  padding: 10px; 
+  /*background: #e0e0e0 linear-gradient(#e0e0e0, grey) repeat-x;*/
+  background-color: #ddd;
+}
+
+.password-save-button {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  color: #fff;
+  border-style: hidden;
+}
+.setting-headertwo{
+  padding-top: 15px;
+  margin-bottom: 10px;
+  height: 50px;
+  background-color: white;
+}
+.setting-headertwo ul li{
+  font-size: 14px;
+  color: grey;
+  margin-top: 10px;
+  display: inline;
+  margin: 10px;
+}
+.setting-li{
+  color: grey;  
+}
+.setting-li:hover{
+  color: black;
+  text-decoration: none;
+}
+.setting-li:focus{
+  color: blue;
+  text-decoration: none;
+}
+.setting-li-home{
+  color: black;
+}
+.password-active-page{
+  color: black;
+}
+.password-footer{
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  padding-top: 5px;
+}
+.password-footer-text{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (min-width: 1024px) {
+    body {
+    }
+}
+@media screen and (max-width: 1024px) {
+    #navvy {
+        padding-left: 100px !important;
+    }
+    #search{
+      margin-left: 0px !important;
+    }
+    .user{
+      float: left !important;
+    }
+}
+/* ---------- */
+
+/*  LOGIN.CSS  */
+.login-body{
+  background-color: white;
+  font-family: Segoe UI Light;
+}
+.login-main-container{
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.login-left-section{
+  height: 100vh;
+  background-position: 0px 0px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+}
+.login-right-section{
+  padding-top: 20px;
+  height: 100vh; 
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
+}
+.login-logo{
+  background-color: transparent;
+}
+
+.login-logo img{
+  background-color: transparent;
+  position: absolute;
+  width: 280px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.login-content{
+  padding-top: 80px;
+  padding-left: 30px;
+  width: 70%;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
+}
+.login-content h2{
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.login-content p{
+  color: white;
+  font-size: 21px;
+  font-weight: lighter;
+}
+.login-content button{
+  margin-top: 20px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.login-top{
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.login-top p{
+  color: grey;
+  margin-top: 15px;
+  padding-bottom: 25px;
+  margin-left: 30px;
+  font-size: 24px;
+}
+.login-register{
+  margin-left: -30px;
+}
+.login-register p{
+  text-align: center;
+  font-size: 11px;
+}
+.login-register a{
+    color: red;
+}
+
+.login-i-accept{
+  color: grey;
+}
+.login-terms-and-conditions{
+  color: red;
+}
+
+.login-register__page{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.login-register__page .input-1 input
+{
+    height: 50px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right;
+    margin: auto;
+}
+
+.login-input span .new-account{
+  text-align: center;
+  padding-top: 50px;  
+
+}
+
+
+.login-input-headeing
+{
+  display: block;
+  margin-top: 25px;
+}
+
+.login-form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 15px;
+}
+
+.login-form-group select{
+   font-size: 15px;
+   width: 100%;
+   height: 50px;
+   border-width: 0;
+   padding: 12px 20px;
+   border-color: lightgrey;
+   border-width: 1px;
+   border-style: solid;
+   margin-top: 10px;
+   color: grey;
+}
+
+.login-login__welcome-2 .or
+{
+  text-align: center;
+  margin-top: 20px;
+}
+.login-btn-tw{
+  background-color: transparent;
+  height: 80px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;  
+  font: 700 13px/18px Helvetica, arial;
+  background: #84ceff linear-gradient(#84ceff, #84ceff) repeat-x;
+  font-size: 13px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 60px;
+  border-style: hidden;
+
+}
+.login-btn-fb{
+  margin-top: -5px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  height: 80px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;  
+  font: 700 13px/18px Helvetica, arial;
+  background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+  font-size: 13px;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  border-style: hidden;
+}
+i.left{
+  margin-right: 5px;
+}
+.login-btn-log{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  height: 80px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;  
+  font: 700 13px/18px Helvetica, arial;
+  background: #f9a206 linear-gradient(#f9a206, #f9a206) repeat-x;
+  font-size: 14px;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  border-style: hidden;
+}
+.login-input--forget--password
+{
+  float: right;
+}
+
+.login-btn i{
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.login-register__welcome-2{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input[type="checkbox"]{
+  color: white;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.login-remember-me {
+  float: left;
+  margin-top: 10px;
+  color: grey;
+}
+
+
+.login-forgot-password {
+  margin-top: 10px;
+  float: right;
+  color: grey;
+}
+
+#login-submit-buttons{
+  margin-top: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+}
+.login-or{
+  text-align: center;
+  color: lightgrey;
+}
+.login-checkbox{
+  margin-top: 10px;
+}
+/* ---------- */
+
+
+
+/*  REGISTER-CSS  */
+
+.register-body{
+  background-color: white;
+  font-family: Segoe UI Light;
+}
+.register-main-container{
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.register-left-section{
+  height: 100vh;
+  background-position: 0px 0px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+}
+.register-right-section{
+  padding-top: 20px;
+  height: 100vh; 
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
+}
+.register-logo{
+  background-color: transparent;
+}
+
+.register-logo img{
+  background-color: transparent;
+  position: absolute;
+  width: 280px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.register-content{
+  padding-top: 80px;
+  padding-left: 30px;
+      width: 70%;
+      height: 50%;
+      top: 25%;
+      margin: 0 auto;
+      position: relative;
+}
+.register-content h2{
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.register-content p{
+  color: white;
+  font-size: 21px;
+  font-weight: lighter;
+}
+.register-content button{
+  margin-top: 20px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* forms */
+.register-top{
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.register-top p{
+  color: grey;
+  margin-top: 15px;
+  padding-bottom: 25px;
+  margin-left: 30px;
+  font-size: 24px;
+}
+.register-or{
+  padding: 10px;
+  background-color: transparent;
+}
+.register-i-accept{
+  color: grey;
+}
+.register-terms-and-conditions{
+  color: red;
+}
+.register-register__page{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.register-register__page .input-1 input
+{
+    height: 50px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right;
+    margin: auto;
+}
+
+.register-button {
+  color: #FFF;
+  background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+  border-color: #1F618D;
+  margin-top: 10px;
+  height: 60px;
+}
+
+
+.register-form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 15px;
+}
+
+.register-form-group select{
+  background-color: transparent;
+   font-size: 15px;
+   width: 100%;
+   height: 50px;
+   border-width: 0;
+   padding: 12px 20px;
+   border-color: lightgrey;
+   border-width: 1px;
+   border-style: solid;
+   margin-top: 10px;
+   color: grey;
+}
+
+.register-login__welcome-2 .or
+{
+  text-align: center;
+  margin-top: 20px;
+}
+.button--state-primary{
+  color: #FFF;
+  background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+  border-color: #1F618D;
+  margin-top: 30px;
+}
+.button--state-info {
+  color: #FFF;
+  background: #5DADE2 linear-gradient(#5DADE2, #5DADE2) repeat-x;
+  border-color: #5DADE2;
+  margin-top: 20px;
+}
+.input--forget--password
+{
+  float: right;
+}
+
+.btn i{
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.register-welcome-2{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.register-checkbox{
+  margin-top: 50px;
+}
+.register-checkbox input{
+  border-color: orange;
+  color: orange;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+.avatar .desc{
+  color: r
+}
+/* -------------- */
+
+   /*GRID*/
+
+

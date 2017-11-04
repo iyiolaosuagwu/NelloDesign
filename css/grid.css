@@ -1,4 +1,5 @@
 
+
 body {
     
     background-color: #e0e0e0;
@@ -50,7 +51,6 @@ body {
   font-size: 13px;
   padding-left: 60px;
 }
-
 #search-bar {
   border-radius: 0px;
   background-image: url('../img/search2.png');
@@ -58,15 +58,14 @@ body {
   padding: 10px;
   background-position: 30px 8px;
 }
-
 .search-box {
   margin-left: 10em;
 }
-
 .search-i {
   float: left;
   padding-right: 20px;
   margin-right: 0px;
+  /*margin-top: -20px;*/
   position: relative;
   z-index: 2;
   color: grey;
@@ -75,9 +74,15 @@ body {
 .advance-btn{
     margin-left: 30px; 
     color: #fff; 
-   
+    border-color: #fff;
 }
 
+/*.icon-search{
+    margin-left: 30px; 
+    height: 70px; 
+    margin-bottom: 20px; 
+    width: 60px;
+}*/
 
 .icon-search{
     margin-left: 20px;
@@ -297,6 +302,53 @@ body {
 
 
 
+.card.hovercard .cardheader-1{
+    background: url("../img/tailor.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-2{
+    background: url("../img/gal-smile.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-3{
+    background: url("../img/profile3.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-4{
+    background: url("../img/camera.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-5{
+    background: url("../img/profile1.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-6{
+    background: url("../img/gal1.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-7{
+    background: url("../img/tailor.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.card.hovercard .cardheader-8{
+    background: url("../img/gal-smile.jpg");
+    background-size: cover;
+    height: 180px;
+}
 
 .card.hovercard .avatar {
     position: relative;
