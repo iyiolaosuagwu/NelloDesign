@@ -1,24 +1,23 @@
-
+ 
 .profile-body {
-    padding-top: 54px;
     background: #EAECEC;
 }
 
 @media (min-width: 992px) {
-    .profile-body {
-        padding-top: 56px;
+    .profile-body{
+        
     }
 }
 
-.navbar {
+.profile-navbar {
   background-color: rgb(7,51,96);
 }
 /* header-btn */
-.header-message {
+.profile-jumbotron-message {
   float: left; 
   padding-left: 15px;
 }
-.container .header-btn {
+.container .profile-header-btn {
   color: #fff;
   background: #1EAE0D;
   margin-top: -2em; 
@@ -30,20 +29,20 @@
   padding-bottom: 10px;
 }
 
-.header-btn:hover {
+.profile-header-btn:hover {
   background: #fff;
   color: #1EAE0D;
   
 }
 
 /* search */
-.search-box input::placeholder {
+.profile-search-box input::placeholder {
   font-size: 13px;
   padding-left: 60px;
 }
 
 
-#search-bar {
+#profile-search-bar {
   border-radius: 0px;
   background-image: url('../img/search2.png');
   background-repeat: no-repeat;
@@ -51,7 +50,7 @@
   background-position: 30px 8px;
 }
 
-.search-box {
+.profile-search-box {
   margin-left: 10em;
 }
 .search-i {
@@ -65,16 +64,16 @@
 }
 
 /* page content */
-.page-content {
+.profile-page-content {
   margin-top: 1.2em;
 }
 
-.main-content {
+.profile-main-content {
   border: 1px solid rgba(0, 0, 0, 0.06); 
 }
 
 /* side bar */
-.side-bar {
+.profile-side-bar {
   background-color: #fff;
 /*  margin-left: 5.7em;*/
 
@@ -88,29 +87,32 @@
 
 
 /* jmb header */
-.jumbotron-header {
+.profile-jumbotron-header {
   background-color: #fff;
   height: 300px;
   box-shadow: 0px 15px 10px -15px #111;
 }
-.my-3 {
+.profile-my-3 {
   height: 250px;
-  background-image: url('../img/Skype-mom.jpg');
+  background-image: url('../img/gal1.jpg');
   border-radius: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative; 
 }
-.section-nav {
+
+.profile-section-nav {
   padding-left: 10em;
 }
+
 .img-thumbnail {
   margin-top: 5em; 
   border-radius: 0px;
 }
+
 /* main-img */
-.main-img {
+/*.main-img {
   height: 130px;
   width: 130px;
 
@@ -122,16 +124,17 @@
 .media img{
   width: 50px;
   height: 50px;
-}
+}*/
 
 /* profile text */
-.profile-text>h1{
+.profile-profile-text>h1{
     font-weight: 700;
     font-size: 25px;
     color: #FFF;
     margin-top: 3.2em;
 }
-.profile-text {
+
+.profile-profile-text {
   background: transparent; 
   width: 40%; 
   padding-left: 9em;
@@ -139,4 +142,109 @@
 #talent {
   color: #FFF;
   font-weight: 500;
+}
+
+/* rounded circle */
+.media .d-flex .rounded-circle {
+  height: 2px;
+
+}
+
+/* desc */
+.desc {
+  font-size: 10px;
+  color: #C9CACA;
+  margin-top: -10px;
+}
+
+.media input::placeholder {
+  font-size: 13px;
+  color: #C9CACA;
+/*  padding-left: 60px*/;
+}
+.media input {
+  border-radius: 0px;
+  height: 25px;
+
+}
+
+    .comment-section {
+      background-color: #FFF;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-top: 1px solid #C9CACA;
+      border-bottom: 1px solid #C9CACA;
+    }
+
+    .profile-comments {
+      font-size: 13px;
+      margin-left: -3em;
+    }
+
+    .profile-text-muted h6 {
+      font-size: 15px;
+    }
+    .media .profile-images {
+        height: 30px;
+        width: 30px;
+      }
+      
+      .holder {
+        /*position: relative;*/
+        height: 100px;
+      }
+      .bar {
+        position: absolute;
+        /*top: 0;*/
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background: rgba(0, 0, 0, 0.6);
+        border-top: 1px solid #fff;
+
+      }
+      iframe {
+        height: 100%;
+        width: 100%;
+      }
+
+
+/* Icon pulse */
+.fa-heart {
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  -moz-animation: pulse 2s infinite linear;
+  -o-animation: pulse 2s infinite linear;
+  -webkit-animation: pulse 2s infinite linear;
+  animation: pulse 2s infinite linear;
+}
+
+@-webkit-keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
