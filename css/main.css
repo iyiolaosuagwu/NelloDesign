@@ -2059,6 +2059,12 @@ background-color: white;
   color: orange !important;
 }
 
+
+
+
+
+
+
 .dashboard-footer{
   width: 100%;
   height: 50px;
@@ -2341,6 +2347,7 @@ label{
   height: 100vh;
   background-position: 0px 0px;
    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+   background-size: cover;
 }
 .login-right-section{
   padding-top: 20px;
@@ -2349,19 +2356,15 @@ label{
   padding-right: 25px;
   background-color: white;
 }
-.login-logo{
-  background-color: transparent;
-}
 
 .login-logo img{
-  background-color: transparent;
-  position: absolute;
-  width: 280px;
-  margin-top: -50px;
-  margin-left: 20px;
+ 
+  margin-top: -30px;
+  margin-left: 60px;
+  width: 30%;
 }
 .login-content{
-  padding-top: 80px;
+  padding-top: 70px;
   padding-left: 30px;
   width: 70%;
   height: 50%;
@@ -2579,6 +2582,7 @@ input[type="checkbox"]{
 .login-or{
   text-align: center;
   color: lightgrey;
+  padding-top: 15px;
 }
 .login-checkbox{
   margin-top: 10px;
@@ -2603,6 +2607,7 @@ input[type="checkbox"]{
   height: 100vh;
   background-position: 0px 0px;
    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+   background-size: cover;
 }
 .register-right-section{
   padding-top: 20px;
@@ -2616,14 +2621,12 @@ input[type="checkbox"]{
 }
 
 .register-logo img{
-  background-color: transparent;
-  position: absolute;
-  width: 280px;
-  margin-top: -50px;
-  margin-left: 20px;
+  margin-top: -30px;
+  margin-left: 60px;
+  width: 30%;
 }
 .register-content{
-  padding-top: 80px;
+  padding-top: 70px;
   padding-left: 30px;
       width: 70%;
       height: 50%;
@@ -2775,12 +2778,4 @@ input[type="checkbox"]{
   margin-right: 10px;
 }
 
-
-.avatar .desc{
-  color: r
-}
-/* -------------- */
-
-   /*GRID*/
-
-
+/* -------------- 
