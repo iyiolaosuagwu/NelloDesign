@@ -1,5 +1,3 @@
-
-
 body {
     
     background-color: #e0e0e0;
@@ -25,27 +23,19 @@ body {
     height: 50px;
 }
 
-.advance-container{
+.grid-advance-container{
     background-color: #bdbdbd;
 }
 
-.advance-section{
+.grid-advance-section{
     margin-top: 15px;
 }
 
-.advance-search{
+.grid-advance-search{
     padding-top: 40px;
 }
 
-.advance-search .input-text input{
-   margin-top: 30px; 
-   margin-bottom: 20px; 
-   margin-left: 30px; 
-   height: 50px; 
-   padding: 0px 20px; 
-   width: 210px;
-   font-size: 13px;
-}
+
 
 .search-box input::placeholder {
   font-size: 13px;
@@ -65,7 +55,7 @@ body {
   float: left;
   padding-right: 20px;
   margin-right: 0px;
-  /*margin-top: -20px;*/
+ 
   position: relative;
   z-index: 2;
   color: grey;
@@ -77,12 +67,6 @@ body {
     border-color: #fff;
 }
 
-/*.icon-search{
-    margin-left: 30px; 
-    height: 70px; 
-    margin-bottom: 20px; 
-    width: 60px;
-}*/
 
 .icon-search{
     margin-left: 20px;

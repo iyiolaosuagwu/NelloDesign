@@ -691,7 +691,7 @@ ul.review-twPc-Arrange {
   width: 180px;
 }
 
-footer{
+.index-footer{
   height: 120px;
 }
 
@@ -931,7 +931,7 @@ label{
   background-color: #fff;
 }
 
-.footer{
+.password-footer{
   margin-top: 10px;
     width: 100%;
     height: 30px;
@@ -939,7 +939,7 @@ label{
   color: white;
   text-align: center;
 }
-.footer p{
+.password-footer p{
   font-size: 14px;
 }
 
@@ -2080,6 +2080,7 @@ background-color: white;
 /* ----------- */
 
 /*  PASSWORD  */
+
 .password-body{
   background-color: lightgrey;
 }
@@ -2126,15 +2127,15 @@ background-color: white;
   margin-top: -10px;
 }
 .password-navbar-user{
-  color: white !important;
-  margin-left: 10px;
+  color: #fff !important;
+  margin-left: 5px;
   margin-bottom: 0px;
   margin-top: 15px !important;
 }
 .password-navbar-user-info{
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 11px;
-  color: grey !important;
+  color: #fff !important;
 }
 .password-navbar{
   margin: 0px;
@@ -2142,36 +2143,6 @@ background-color: white;
   background-color: rgb(7,51,96);
 }
 
-
-.password-headertwo{
-  padding-top: 15px;
-  margin-bottom: 10px;
-  height: 50px;
-  background-color: white;
-}
-.password-headertwo ul li{
-  font-size: 14px;
-  color: grey;
-  margin-top: 10px;
-  display: inline;
-  margin: 10px;
-}
-.password-li{
-  color: grey;
-  margin-left: 10px;
-}
-.password-li:hover{
-  color: black;
-  text-decoration: none;
-}
-.password-li:focus{
-  color: blue;
-  text-decoration: none;
-}
-.password-li-home{
-  color: black;
-  margin-left: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-}
 
 .password-main-section{
   padding-top: 55px;
@@ -2249,6 +2220,7 @@ background-color: white;
 .password-input-1 input{
   padding: 12px;
 }
+
 label{
   color: grey;
   font-size: 10px;
@@ -2778,4 +2750,236 @@ input[type="checkbox"]{
   margin-right: 10px;
 }
 
-/* -------------- 
+/* --------------*/ 
+
+
+/*ABOUT*/
+.about-navbar {
+  background-color: rgb(7,51,96);
+}
+
+
+.about-brand-heading h1{
+  margin-top: 50px;
+  text-align: center;
+  color: #99A3A4;
+  font-size: 40px;
+}
+
+.about-img-list img{
+  width: 170px; 
+  height: 170px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.about-top-talent{
+  margin-top: 40px;
+}
+
+.talent h1{
+  font-size: 25px; 
+  color: #99A3A4;
+  font-size: 40px;
+}
+
+.about-container-section{
+  background-color: rgb(245, 245, 245); 
+  padding-bottom: 50px;
+}
+
+.index-link ul{
+    padding:0px;
+}
+.index-link ul li{
+    list-style-type:none;
+}
+.index-link ul li a{
+  text-decoration:none;
+  font-size:16px;
+  color:#fff;
+  display:block;
+  padding:5px 0;
+  text-align:left;
+}
+.index-link ul li a:hover{
+     text-decoration:underline;
+}*/
+/*.copy-c{
+    padding-top:15px;
+}*/
+
+
+/* footer */
+#about-myFooter {
+    background-color: #073360;
+    color: white;
+}
+
+#about-myFooter .row {
+    margin-bottom: 60px;
+}
+
+#about-myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#about-myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#about-myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#about-myFooter .logo{
+    margin-top: 10px;
+}
+
+
+
+#about-myFooter .about-second-bar .logo a{
+    color:white;
+    font-size: 17px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#about-myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#about-myFooter a:hover,
+#about-myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#about-myFooter .second-bar {
+    text-align: center;
+    text-align: center;
+}
+
+#about-myFooter .about-second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#about-myFooter .about-second-bar a:hover {
+    text-decoration: none;
+}
+
+#about-myFooter .about-social-icons {
+    float:left;
+}
+
+
+#about-myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#about-myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#about-myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #about-myFooter {
+        text-align: center;
+    }
+
+    #about-myFooter .info{
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    /* display: flex; */
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    /* height: 100%; */
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#about-myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+.about-social-icons .privacy a{
+  float: right;
+}
+
+
+.about-map {
+  margin-top: 2em
+}
+
+.hr-1{
+  background: #fff; 
+  margin-right: 5em; 
+  margin-left: 5em;
+}
+
+
+.text-1 h5{
+  margin-left: 20px; 
+  margin-top: 40px;
+}
+
+.about-text-2 h5{
+  margin-left: 90px; 
+  margin-top: 40px;
+}
+
+.about-text-3 h5{
+  margin-left:200px; 
+  margin-top: 40px;
+}
+
+.about-text-1 p{
+  margin-left: 20px; 
+  /*margin-top: 40px;*/
+}
+
+.about-text-2 p{
+  margin-left: 90px; 
+  /*margin-top: 40px;*/
+}
+
+.about-text-3 p{
+  margin-left: 210px; 
+  /*margin-top: 40px;*/
+}
+
+/*ABOUT*/
